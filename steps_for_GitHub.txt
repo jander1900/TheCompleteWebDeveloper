@@ -1,0 +1,12 @@
+Create Repo in GitHub
+create directory on local machine to store files
+use git init to turn directory inot a Git Repository
+
+use git remote to connect local repository to remote repository in GitHub (git remote <short name> <https:name from GitHub>)
+
+use git push <remote-shortname> <github url> to push files to GitHub (after committing changes)
+
+use git pull <github url> to pull files from GitHub to local repository
+
+
+
