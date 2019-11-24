@@ -2,8 +2,16 @@
 	Property: value; 
 }*/
 
+body {
+	background-image: url(ai.jpg);
+	background-size: cover;
+}
+
 h2 {
-	color: red;
+	color: #FFF5AA;
+	text-align: center;
+	border: 5px solid rgba(170, 157, 57, 0.5);
+	cursor: pointer;
 }
 
 p {
@@ -13,3 +21,9 @@ p {
 p {
 	color: green;
 }
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
