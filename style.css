@@ -2,12 +2,17 @@
 	Property: value; 
 }*/
 
+/* "*"" - all elements*/
+* {
+	text-align: right;
+}
+
 body {
 	background-image: url(ai.jpg);
 	background-size: cover;
 }
 
-h2 {
+h2, p:hover {
 	color: #FFF5AA;
 	text-align: center;
 	border: 5px solid rgba(170, 157, 57, 0.5);
@@ -27,3 +32,18 @@ li {
 	display: inline-block;
 }
 
+/*class*/
+.webtext {
+	border: 5px dashed green;
+}
+
+/*id*/
+#div1 {
+	background: rgba(0,0,255, 0.2);
+}
+
+#div2 {
+	background: rgba(255,0,0, 0.2);
+}
+
+/* "*"" - all elements*/
